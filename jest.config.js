@@ -4,6 +4,12 @@ module.exports = {
   // presets: [['@babel/preset-env', {targets: {node: 'current'}}]]
   errorOnDeprecated:false
   ,resetMocks: false
+
+  ,coverageThreshold: {
+    global: {
+      lines: 50,
+    },
+  }
   // ,setupFiles: ["jest-localstorage-mock"]
   //,setupFilesAfterEnv : ["jest-json"]
   
