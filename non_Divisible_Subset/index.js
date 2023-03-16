@@ -1,4 +1,4 @@
-export function nonDivisibleSubset(k, s) {
+export const nonDivisibleSubset = (k, s) => {
   // Write your code here
   let answer = 0;
   let arr = new Array(k).fill(0);
