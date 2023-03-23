@@ -10,7 +10,8 @@
     "babel-jest": "^29.4.3"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "new": "_bash/newfolder.sh"
   },
   "keywords": [
     "rackerranking",

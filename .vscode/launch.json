@@ -15,12 +15,7 @@
 
   "configurations": [
     {
-      "name": "Run npm start",
-      "command": "npm test ${input:argPrompt}",
-      "request": "launch",
-      "type": "node-terminal"
-    },
-    {
+      "runtimeExecutable": "/Users/valter/.nvm/versions/node/v16.16.0/bin/node",
       "name": "Launch Program",
       "program": "${workspaceFolder}/${relativeFile}",
       "request": "launch",
@@ -28,6 +23,12 @@
         "<node_internals>/**"
       ],
       "type": "node"
+    },
+    {
+      "name": "Run npm start",
+      "command": "npm test ${input:argPrompt}",
+      "request": "launch",
+      "type": "node-terminal"
     }
 
   ]
