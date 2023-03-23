@@ -22,7 +22,8 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "type": "node"
+      "type": "node",
+
     },
     {
       "name": "Run npm start",
