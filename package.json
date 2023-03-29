@@ -10,7 +10,7 @@
     "babel-jest": "^29.4.3"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --forceExit --detectOpenHandles",
     "new": "_bash/newfolder.sh"
   },
   "keywords": [
